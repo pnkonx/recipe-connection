@@ -7,7 +7,8 @@
     <title>Document</title>
     <style>
         body {
-          background-color: red; 
+          background-color: rgb(105, 122, 114);
+          display: block; 
           text-align: center;
           font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
         }
@@ -15,12 +16,15 @@
         #divOne {
             width: 600px;
             height: 500px;
+            box-sizing: b;
             border-color: burlywood;
-            box-shadow: 7px 7px 5px black;
+            border-width: 22px;
+            box-shadow: 7px 7px 5px rgb(155, 112, 60);
         }
 
         #divTwo {
-            align: center;
+            display: inline-flex;
+            justify-content: center;
             margin-top: 10%;
             padding: 10 10 10 10;
             text-align: center;
@@ -30,17 +34,21 @@
             width: 800px;
             height:100px;
             box-shadow: 7px 7px 5px black;
-            background-color: bisque;
+            background-color: rgb(155, 112, 60);
+        }
+
+        li {
+            margin: 25px;
         }
     </style>
     <body>
         <h1>Odin Recipes</h1>
-        <img style="border: 10px; outset; blue;" id="divOne" src="https://drive.google.com/uc?id=1beoH6GcX5sfxNBJoORqpjfbSHKVR9lk-">
+        <img style="border: 20px; border-color: black;" id="divOne" src="https://drive.google.com/uc?id=1beoH6GcX5sfxNBJoORqpjfbSHKVR9lk-">
         <div id="divTwo">
-            <a href="/home/nic/repos/odin-recipes/recipes/rice.html">Rice</a>
-            <a href="/home/nic/repos/odin-recipes/recipes/pasta.html">Pasta</a>
-            <a href="/home/nic/repos/odin-recipes/recipes/coffee.html">Coffee</a>
-            <a href="/home/nic/repos/odin-recipes/recipes/toast.html">Toast</a>
+            <li><a href="/home/nic/repos/odin-recipes/recipes/rice.html ">Rice</a></li>
+            <li><a href="/home/nic/repos/odin-recipes/recipes/pasta.html ">Pasta</a></li>
+            <li><a href="/home/nic/repos/odin-recipes/recipes/coffee.html ">Coffee</a></li>
+            <li><a href="/home/nic/repos/odin-recipes/recipes/toast.html">Toast</a></li>
         </div>
     </body>
 </head>
